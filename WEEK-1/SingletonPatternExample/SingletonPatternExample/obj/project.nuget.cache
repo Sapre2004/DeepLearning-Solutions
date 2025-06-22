@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FCot8hoK3kw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\KIIT\\DeepLearning-Solutions\\WEEK-1\\SingletonPatternExample\\SingletonPatternExample\\SingletonPatternExample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KIIT\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1-preview.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1-preview.1.nupkg.sha512"
+  ],
+  "logs": []
+}

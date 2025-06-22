@@ -1,0 +1,14 @@
+C:\Users\Shubam\Desktop\Design Pattern\week1_EcommerceSearch\bin\Debug\net8.0\week1_EcommerceSearch.exe
+C:\Users\Shubam\Desktop\Design Pattern\week1_EcommerceSearch\bin\Debug\net8.0\week1_EcommerceSearch.deps.json
+C:\Users\Shubam\Desktop\Design Pattern\week1_EcommerceSearch\bin\Debug\net8.0\week1_EcommerceSearch.runtimeconfig.json
+C:\Users\Shubam\Desktop\Design Pattern\week1_EcommerceSearch\bin\Debug\net8.0\week1_EcommerceSearch.dll
+C:\Users\Shubam\Desktop\Design Pattern\week1_EcommerceSearch\bin\Debug\net8.0\week1_EcommerceSearch.pdb
+C:\Users\Shubam\Desktop\Design Pattern\week1_EcommerceSearch\obj\Debug\net8.0\week1_EcommerceSearch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shubam\Desktop\Design Pattern\week1_EcommerceSearch\obj\Debug\net8.0\week1_EcommerceSearch.AssemblyInfoInputs.cache
+C:\Users\Shubam\Desktop\Design Pattern\week1_EcommerceSearch\obj\Debug\net8.0\week1_EcommerceSearch.AssemblyInfo.cs
+C:\Users\Shubam\Desktop\Design Pattern\week1_EcommerceSearch\obj\Debug\net8.0\week1_EcommerceSearch.csproj.CoreCompileInputs.cache
+C:\Users\Shubam\Desktop\Design Pattern\week1_EcommerceSearch\obj\Debug\net8.0\week1_EcommerceSearch.dll
+C:\Users\Shubam\Desktop\Design Pattern\week1_EcommerceSearch\obj\Debug\net8.0\refint\week1_EcommerceSearch.dll
+C:\Users\Shubam\Desktop\Design Pattern\week1_EcommerceSearch\obj\Debug\net8.0\week1_EcommerceSearch.pdb
+C:\Users\Shubam\Desktop\Design Pattern\week1_EcommerceSearch\obj\Debug\net8.0\week1_EcommerceSearch.genruntimeconfig.cache
+C:\Users\Shubam\Desktop\Design Pattern\week1_EcommerceSearch\obj\Debug\net8.0\ref\week1_EcommerceSearch.dll
