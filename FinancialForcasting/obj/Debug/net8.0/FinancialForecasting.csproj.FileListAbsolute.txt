@@ -1,0 +1,5 @@
+C:\Users\KIIT\DeepLearning-Solutions\FinancialForcasting\obj\Debug\net8.0\FinancialForecasting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KIIT\DeepLearning-Solutions\FinancialForcasting\obj\Debug\net8.0\FinancialForecasting.AssemblyInfoInputs.cache
+C:\Users\KIIT\DeepLearning-Solutions\FinancialForcasting\obj\Debug\net8.0\FinancialForecasting.AssemblyInfo.cs
+C:\Users\KIIT\DeepLearning-Solutions\FinancialForcasting\obj\Debug\net8.0\FinancialForecasting.csproj.CoreCompileInputs.cache
+C:\Users\KIIT\DeepLearning-Solutions\FinancialForcasting\obj\Debug\net8.0\FinancialForecasting.sourcelink.json
