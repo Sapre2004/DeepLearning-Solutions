@@ -1,0 +1,23 @@
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha256', the key size must be greater than: '256' bits, key has '208' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at CompanyWebAPI.Controllers.AuthController.Login(LoginModel user) in C:\Users\Shubam\source\repos\CompanyWebAPI\CompanyWebAPI\Controllers\AuthController.cs:line 31
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
