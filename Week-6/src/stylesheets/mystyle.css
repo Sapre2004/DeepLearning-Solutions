@@ -1,0 +1,17 @@
+/* src/Stylesheets/mystyle.css */
+.score-container {
+  background-color: #f4f4f4;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px auto;
+  width: 400px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+.highlight {
+  color: #2e8b57;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
